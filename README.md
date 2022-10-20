@@ -12,30 +12,6 @@ $ yarn start
 // Visit your app on http://localhost:3000
 ```
 
-# Notes
-- Open in inkognito if CORS error
-- Use the Magic Auth publishable key in .env file
-
-## What is NEAR
-
-NEAR Protocol is a layer-one blockchain with features that include Proof-of-Stake consensus, smart contract support, high scalability through sharding, and human-readable addressing. 
-
-Dissimilar to Ethereum and EVM-compatible chains which use the Solidity programming language, smart contracts on NEAR are written in Rust or AssemblyScript (similar to JavaScript). Building on the NEAR blockchain allows developers to build decentralized and serverless applications that maintain security while also providing scalability that popular dApps require. The high transaction throughput is enabled through sharding, which divides the computation required from nodes, so each only need to process transactions relevant to their respective shard.
-
-An important differentiator with NEAR compared to other layer-one's is they support human-readable accounts at the base layer, such as `magic.near`, instead of non-human-readable addresses such as `92130c8ab2c23a33...` found in other blockchains. This makes NEAR a user-friendly blockchain for developers to build on. 
-
-The native token for the blockchain is NEAR, which is used to pay for all transaction fees on the platform.
-
-## Get Testnet Tokens
-
-1. Create a test wallet on [wallet.testnet.near.org](https://wallet.testnet.near.org). 200 NEAR test tokens will automatically be deposited to your wallet.
-2. Login to your Magic-NEAR app with email, google, or phone number to get your public address.
-3. Transfer funds from your `your-account.testnet` wallet on wallet.testnet.near.org to your Magic wallet.
-
-## Tutorial
-
-At the end of this tutorial, your end users will be able to login to your dapp with just an email, social provider, or phone number, create a NEAR wallet, then receive and transfer funds.
-
 ## Dependencies
 
 ```
