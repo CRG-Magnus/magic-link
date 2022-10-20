@@ -12,6 +12,10 @@ $ yarn start
 // Visit your app on http://localhost:3000
 ```
 
+# Notes
+- Open in inkognito if CORS error
+- Use the Magic Auth publishable key in .env file
+
 ## What is NEAR
 
 NEAR Protocol is a layer-one blockchain with features that include Proof-of-Stake consensus, smart contract support, high scalability through sharding, and human-readable addressing. 
